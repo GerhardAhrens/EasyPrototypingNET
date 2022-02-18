@@ -63,7 +63,7 @@ namespace EasyPrototyping.Analysis
         /// </summary>
         /// <param name="pText">The pText.</param>
         /// <returns></returns>
-        public static string IsFemalMale(string pText)
+        public static string IsFemalOrMale(string pText)
         {
             //additive Mädels
             string[] f1 = { "a", "e", "i", "n", "y" };

@@ -1,11 +1,11 @@
 //-----------------------------------------------------------------------
-// <copyright file="GuidExtensions.cs" company="PTA">
+// <copyright file="GuidExtensions.cs" company="Lifeprojects.de">
 //     Class: GuidExtensions
 //     Copyright © PTA GmbH 2017
 // </copyright>
 //
-// <author>Gerhard Ahrens - PTA GmbH</author>
-// <email>gerhard.ahrens@contractors.roche.com</email>
+// <author>Gerhard Ahrens - Lifeprojects.de</author>
+// <email>gerhard.ahrens@lifeprojects.de</email>
 // <date>10.07.2017</date>
 //
 // <summary>Extensions Class for Guid Types</summary>

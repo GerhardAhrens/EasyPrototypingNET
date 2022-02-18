@@ -33,7 +33,7 @@ namespace EasyPrototyping.Analysis
     ///     by Lawrence Phillips in June 2000 C/C++ Users Journal. 
     /// 
     ///     Optimized and ported to C# by Adam Nelson (anelson@nullpointer.net)
-    /// 										</summary>
+    /// </summary>
     public class DoubleMetaphone : IDisposable
     {
         private const int METAPHONE_KEY_LENGTH = 4;//The length of the metaphone keys produced.  4 is sweet spot

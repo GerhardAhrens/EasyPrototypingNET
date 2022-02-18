@@ -1,11 +1,11 @@
 //-----------------------------------------------------------------------
-// <copyright file="StringIsXXXExtensions.cs" company="PTA">
+// <copyright file="StringIsXXXExtensions.cs" company="Lifeprojects.de">
 //     Class: StringIsXXXExtensions
-//     Copyright © PTA GmbH 2016
+//     Copyright © Lifeprojects.de GmbH 2016
 // </copyright>
 //
-// <author>Gerhard Ahrens - PTA GmbH</author>
-// <email>gerhard.ahrens@contractors.roche.com</email>
+// <author>Gerhard Ahrens - Lifeprojects.de</author>
+// <email>gerhard.ahrens@lifeprojects.de</email>
 // <date>1.1.2016</date>
 //
 // <summary>Extensions Class for String Types, Prüfungen für Strings</summary>

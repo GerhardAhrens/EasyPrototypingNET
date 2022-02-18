@@ -1,14 +1,16 @@
 //-----------------------------------------------------------------------
-// <copyright file="EnumerableExtension.cs" company="PTA">
+// <copyright file="EnumerableExtension.cs" company="Lifeprojects.de">
 //     Class: EnumerableExtension
-//     Copyright © PTA GmbH 2017
+//     Copyright © Lifeprojects.de GmbH 2017
 // </copyright>
 //
-// <author>Gerhard Ahrens - PTA GmbH</author>
-// <email>gerhard.ahrens@contractors.roche.com</email>
+// <author>Gerhard Ahrens - Lifeprojects.de</author>
+// <email>gerhard.ahrens@lifeprojects.de</email>
 // <date>15.08.2017</date>
 //
-// <summary>Extensions Class for Collection Types</summary>
+// <summary>
+// Enum Class für Vergleichsanweisungen
+// </summary>
 //-----------------------------------------------------------------------
 
 namespace EasyPrototyping.Core

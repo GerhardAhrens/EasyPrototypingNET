@@ -1,15 +1,15 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="DiacriticsConverter.cs" company="PTA">
-//     Class: DiacriticsConverter
-//     Copyright © PTA GmbH 2020 ()
+// <copyright file="DiacriticsGerConverter.cs" company="Lifeprojects.de">
+//     Class: DiacriticsGerConverter
+//     Copyright © Lifeprojects.de 2020 ()
 // </copyright>
 //
-// <author>ahrensg1 - PTA GmbH</author>
-// <email>gerhard.ahrens@contractors.roche.com</email>
+// <author>Gerhard Ahrens - Lifeprojects.de</author>
+// <email>gerhard.ahrens@lifeprojects.de</email>
 // <date>16.09.2020 14:41:35</date>
 //
 // <summary>
-//  TODO: class description.
+//  Die Klasse konvertiert diakritische Zeichen
 // </summary>
 //-----------------------------------------------------------------------
 
@@ -20,7 +20,7 @@ namespace EasyPrototyping.Analysis
     using System.Globalization;
     using System.Text;
 
-    public class DiacriticsConverter
+    public class DiacriticsGerConverter
     {
         private readonly Dictionary<char, string> converter = new Dictionary<char, string>() {
         {  'ä', "ae" },
@@ -34,7 +34,7 @@ namespace EasyPrototyping.Analysis
         private readonly string value = null;
         private readonly StringBuilder stringBuilder = null;
 
-        public DiacriticsConverter(string value)
+        public DiacriticsGerConverter(string value)
         {
             if (string.IsNullOrWhiteSpace(value) == false)
             {

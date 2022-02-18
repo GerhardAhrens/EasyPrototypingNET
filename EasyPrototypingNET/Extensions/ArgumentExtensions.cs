@@ -1,7 +1,7 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="ArgumentExtensions.cs" company="PTA">
+// <copyright file="ArgumentExtensions.cs" company="Lifeprojects.de">
 //     Class: ArgumentExtensions
-//     Copyright © PTA GmbH 2019
+//     Copyright © Lifeprojects.de GmbH 2019
 // </copyright>
 //
 // <author>Gerhard Ahrens - PTA GmbH</author>

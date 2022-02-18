@@ -1,11 +1,11 @@
 //-----------------------------------------------------------------------
-// <copyright file="StringExtensions.cs" company="PTA">
+// <copyright file="StringExtensions.cs" company="Lifeprojects.de">
 //     Class: StringExtensions
-//     Copyright © PTA GmbH 2016
+//     Copyright © Lifeprojects.de GmbH 2016
 // </copyright>
 //
-// <author>Gerhard Ahrens - PTA GmbH</author>
-// <email>gerhard.ahrens@contractors.roche.com</email>
+// <author>Gerhard Ahrens - Lifeprojects.de</author>
+// <email>gerhard.ahrens@lifeprojects.de</email>
 // <date>1.1.2016</date>
 //
 // <summary>

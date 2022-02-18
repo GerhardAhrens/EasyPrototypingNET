@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Analysis\StringTokenizer\" />
     <Folder Include="Extensions\System.Guid\" />
     <Folder Include="Extensions\System.Char\" />
     <Folder Include="Extensions\System.String\" />

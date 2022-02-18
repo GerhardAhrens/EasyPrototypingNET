@@ -9,7 +9,7 @@
 // <date>10.06.2020</date>
 //
 // <summary>
-//      Extensions Class for char Type
+// Extensions Class for char Type
 // </summary>
 //-----------------------------------------------------------------------
 
