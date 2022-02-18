@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>annotations</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Analysis\StringTokenizer\" />
+    <Folder Include="Extensions\System.Guid\" />
+    <Folder Include="Extensions\System.Char\" />
+    <Folder Include="Extensions\System.String\" />
+    <Folder Include="Core\" />
+  </ItemGroup>
+
+</Project>

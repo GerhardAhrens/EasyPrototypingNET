@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPrototypingNET", "EasyPrototypingNET\EasyPrototypingNET.csproj", "{5CC73006-5AEA-4D6E-A0F0-86F540AE103B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPrototypingNET_Test", "EasyPrototypingNET_Test\EasyPrototypingNET_Test.csproj", "{B39BAC0B-6C9C-45A9-A97C-3DE61E086B25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC73006-5AEA-4D6E-A0F0-86F540AE103B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC73006-5AEA-4D6E-A0F0-86F540AE103B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC73006-5AEA-4D6E-A0F0-86F540AE103B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC73006-5AEA-4D6E-A0F0-86F540AE103B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39BAC0B-6C9C-45A9-A97C-3DE61E086B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39BAC0B-6C9C-45A9-A97C-3DE61E086B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39BAC0B-6C9C-45A9-A97C-3DE61E086B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39BAC0B-6C9C-45A9-A97C-3DE61E086B25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97D66B38-672A-4F4C-98AD-E978ACFCC92D}
+	EndGlobalSection
+EndGlobal
