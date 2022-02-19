@@ -36,6 +36,9 @@ namespace EasyPrototyping.Analysis
         private int saveCol;
         private int savePos;
 
+        /// <summary>Initializes a new instance of the <see cref="StringTokenizer" /> class.</summary>
+        /// <param name="reader">The reader.</param>
+        /// <exception cref="System.ArgumentNullException">reader</exception>
         public StringTokenizer(TextReader reader)
         {
             if (reader == null)
@@ -48,6 +51,9 @@ namespace EasyPrototyping.Analysis
             this.Reset();
         }
 
+        /// <summary>Initializes a new instance of the <see cref="StringTokenizer" /> class.</summary>
+        /// <param name="data">The data.</param>
+        /// <exception cref="System.ArgumentNullException">data</exception>
         public StringTokenizer(string data)
         {
             if (data == null)
@@ -79,6 +85,7 @@ namespace EasyPrototyping.Analysis
             set { this.ignoreWhiteSpace = value; }
         }
 
+        /// <summary>Resets this instance.</summary>
         private void Reset()
         {
             this.ignoreWhiteSpace = false;
@@ -89,6 +96,12 @@ namespace EasyPrototyping.Analysis
             this.pos = 0;
         }
 
+
+        /// <summary>
+        /// Las the specified count.
+        /// </summary>
+        /// <param name="count">The count.</param>
+        /// <returns></returns>
         protected char LA(int count)
         {
             if (this.pos + count >= this.data.Length)
@@ -101,6 +114,11 @@ namespace EasyPrototyping.Analysis
             }
         }
 
+
+        /// <summary>
+        /// Consumes this instance.
+        /// </summary>
+        /// <returns></returns>
         protected char Consume()
         {
             char ret = this.data[pos];
@@ -110,17 +128,32 @@ namespace EasyPrototyping.Analysis
             return ret;
         }
 
+        /// <summary>
+        /// Creates the token.
+        /// </summary>
+        /// <param name="kind">The kind.</param>
+        /// <param name="value">The value.</param>
+        /// <returns></returns>
         protected Token CreateToken(TokenKind kind, string value)
         {
             return new Token(kind, value, line, this.column);
         }
 
+        /// <summary>
+        /// Creates the token.
+        /// </summary>
+        /// <param name="kind">The kind.</param>
+        /// <returns></returns>
         protected Token CreateToken(TokenKind kind)
         {
             string tokenData = data.Substring(this.savePos, this.pos - this.savePos);
             return new Token(kind, tokenData, this.saveLine, this.saveCol);
         }
 
+        /// <summary>
+        /// Nexts this instance.
+        /// </summary>
+        /// <returns></returns>
         public Token Next()
         {
         ReadToken:

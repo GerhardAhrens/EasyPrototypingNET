@@ -22,6 +22,13 @@ namespace EasyPrototyping.Analysis
         private readonly string value;
         private readonly TokenKind kind;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Token"/> class.
+        /// </summary>
+        /// <param name="kind">The kind.</param>
+        /// <param name="value">The value.</param>
+        /// <param name="line">The line.</param>
+        /// <param name="column">The column.</param>
         public Token(TokenKind kind, string value, int line, int column)
         {
             this.kind = kind;
@@ -30,21 +37,45 @@ namespace EasyPrototyping.Analysis
             this.column = column;
         }
 
+        /// <summary>
+        /// Gets the column.
+        /// </summary>
+        /// <value>
+        /// The column.
+        /// </value>
         public int Column
         {
             get { return this.column; }
         }
 
+        /// <summary>
+        /// Gets the kind.
+        /// </summary>
+        /// <value>
+        /// The kind.
+        /// </value>
         public TokenKind Kind
         {
             get { return this.kind; }
         }
 
+        /// <summary>
+        /// Gets the line.
+        /// </summary>
+        /// <value>
+        /// The line.
+        /// </value>
         public int Line
         {
             get { return this.line; }
         }
 
+        /// <summary>
+        /// Gets the value.
+        /// </summary>
+        /// <value>
+        /// The value.
+        /// </value>
         public string Value
         {
             get { return this.value; }
